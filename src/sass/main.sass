@@ -1,0 +1,78 @@
+@import 'modules/_fonts.scss'
+@import 'modules/_interface.sass'
+a
+    // text-decoration: none
+    color: white
+    &:hover
+        color: white;
+
+header
+    background: #9B2217
+    color: #fff
+    & a:hover
+        text-decoration: none
+.header
+    &-title 
+        font-size: 26px
+        font-weight: bold
+    &-nav
+        &-link 
+            &:not(:last-child)  
+            margin-right: 15px
+.navbar
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 12px 0
+    margin-bottom: 0
+    flex-basis: 1
+    &::before
+        content: none
+    &::after
+        content: none
+#header-navbar-toggler
+    background: transparent
+    border: 0 !important
+    outline: 0 !important
+
+
+
+@media (min-width: 768px)
+    #header-navbar-toggler
+        display: none
+    #payment-section p 
+        font-size: 18px
+
+section 
+    padding: 30px 0
+    & h3 
+        font-weight: bold
+#hero-section
+    background: url('../img/hero-bg.jpg') no-repeat no-repeat
+    padding: 150px 0 280px
+
+.hero
+    color: white
+    max-width: 610px
+    & h1 
+        font-weight: bold
+        margin-bottom: 20px
+    & p 
+        font-size: 20px
+        margin-bottom: 25px
+    &-btn
+        background-color: #9B2217
+        font-weight: bold
+        border-radius: 10px
+        padding: 6px 20px
+        font-size: 16px
+        &:hover
+            color: white
+footer 
+    background-color: #9b2217
+    padding: 15px 0
+    color: #f3f3f3
+.footer
+    display: flex
+    justify-content: space-between
+    align-items: center

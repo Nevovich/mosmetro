@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'),
+    url('../fonts/gilroy-extrabold.woff2') format('woff2'),
+    url('../fonts/gilroy-extrabold.woff') format('woff');
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'),
+    url('../fonts/gilroy-regular.woff2') format('woff2'),
+    url('../fonts/gilroy-regular.woff') format('woff');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
